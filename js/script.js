@@ -4,11 +4,11 @@ const back = document.querySelector('body');
 const menuList = document.querySelector('.menu__list');
 
 menuBurger.onclick = function () {
-	menuBurger.classList.toggle('.active');
-	menuBody.classList.toggle('.active');
-	back.classList.toggle('.lock');
+	menuBurger.classList.toggle('active');
+	menuBody.classList.toggle('active');
+	back.classList.toggle('lock');
 }
 menuBody.onclick = function () {
-	menuBody.classList.remove('.active');
-	back.classList.toggle('.lock')
+	menuBody.classList.remove('active');
+	back.classList.toggle('lock')
 }
