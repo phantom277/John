@@ -256,6 +256,9 @@ h6 {
 			color: #FF6464;
 		}
 }
+._active a{
+	color: #FF6464;
+}
 .menu__list li{
 	margin: 0px 36px 0px 0px;
 }
